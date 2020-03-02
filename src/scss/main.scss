@@ -1,0 +1,45 @@
+@import "./components/list.scss";
+
+
+$color-background:  #C6DABF;
+$color-dark:        #114B5F;
+$color-light:       #F3E9D2;
+$color-green:       #1A936F;
+$color-green-light: #88D498;
+
+* {
+    font-family: 'Avenir', Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    padding: 0;
+    margin: 0; 
+    color: white;
+} 
+
+hr {
+    width: 80%;
+    margin: 10px auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+#app {
+    height: 100%;
+}
+
+#app {
+    display: flex;
+    height: 100vh;
+}
+
+.sm-icon {
+    max-width: 40px;
+    height: auto;
+    transition: margin 1s;  
+}
+.sm-icon > path {
+    max-width: 40px;
+    height: auto;
+}
